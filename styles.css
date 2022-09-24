@@ -7,3 +7,51 @@
 html {
   font-size: 10px;
 }
+
+body {
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #000046,
+    #1cb5e0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#app {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  padding: 24px;
+  gap: 24px;
+}
+
+.note {
+  height: 200px;
+  padding: 16px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+  resize: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.add-note {
+  height: 200px;
+  border: none;
+  outline: none;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 10rem;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-note:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
