@@ -9,17 +9,7 @@ html {
 }
 
 body {
-  background: #000046; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #1cb5e0,
-    #000046
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #000046,
-    #1cb5e0
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #d4a373;
 }
 
 #app {
@@ -34,6 +24,7 @@ body {
   padding: 16px;
   border: none;
   border-radius: 10px;
+  background-color: #fefae0;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
   resize: none;
   font-family: Arial, Helvetica, sans-serif;
